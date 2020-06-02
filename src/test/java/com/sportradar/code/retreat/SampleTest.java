@@ -23,9 +23,9 @@ public class SampleTest {
     public void GIVEN_seatWhichWasTakenPreviously_WHEN_checkingIfItIsFree_THEN_isFreeResultsToFalse() {
         Seat seat = new Seat();
 
-        seat.occupy();
+//        seat.occupy();
 
-        Assertions.assertFalse(seat.isFree());
+//        Assertions.assertFalse(seat.isFree());
     }
 
 }
